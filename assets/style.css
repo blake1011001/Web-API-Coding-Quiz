@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: pink;
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+}
+
+button {
+    outline: none;
+    background-color: black;
+    color:white;
+    font-size: 1.3em;
+}
+
+.outer-container {
+    padding: 10px;
+}
+
+.top-bar p {
+    float:right;
+}
+

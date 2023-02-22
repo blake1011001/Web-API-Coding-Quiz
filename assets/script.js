@@ -42,8 +42,11 @@ var questions = [
     {
         question: "Arrays in JavaScript can be used to store which?"
         options: {
-            
-        }
-    }
-
+            A: "numbers and strings",
+            B: "other arrays",
+            C: "booleans",
+            D: "all of the above",
+        },
+        correctAnswer: "all of the above"
+    },
 ];
