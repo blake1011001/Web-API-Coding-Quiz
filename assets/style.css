@@ -5,13 +5,12 @@
   :root {
     --first: black;
     --second: blue; 
-    --third: rgb(211, 56, 144);
+    --third: pink;
     font-size: 55%;
   }
 
   body {
     background: lightcyan;
-    color: var(--first);
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,9 +28,10 @@
       color: var(--third)
   }
 
-  header h4 {
-      padding-left: 20px;
+  header h3 {
+      font: italic;
       font-size: 2.0rem;
+      padding-left: 20px;
       display: inline;
   }
   
@@ -79,7 +79,7 @@
   }
 
   .end h1, .end p {
-      text-align: left
+      text-align: center
   }
 
   .end input {
@@ -181,7 +181,7 @@
  }
 
  li:nth-child(odd) {
-     background-color: rgba(228, 151, 164, 0.5);;
+     background-color: peachpuff;
  }
 
 

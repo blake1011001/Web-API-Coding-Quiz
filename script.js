@@ -25,7 +25,7 @@ var questions = [
             A: "booleans",
             B: "alerts",
             C: "numbers",
-            D: "strings"
+            D: "strings",
         },
         correctAnswer: "alerts"
     },
@@ -50,32 +50,28 @@ var questions = [
         correctAnswer: "all of the above"
     },
 ];
-
-      var containerQuestionEl = document.getElementById("question-container");
-      var containerStartEl = document.getElementById("starter-container");
-      var containerEndEl = document.getElementById("end-container")
-      var containerScoreEl = document.getElementById("score-banner")
-      var formInitials = document.getElementById("initials-form")
-      var containerHighScoresEl = document.getElementById("high-score-container")
-      var ViewHighScoreEl = document.getElementById("view-high-scores")
-      var listHighScoreEl = document.getElementById("high-score-list")
-      var correctEl = document.getElementById("correct")
-      var wrongEl = document.getElementById("wrong")
     
       var btnStartEl = document.querySelector("#start-game");
-      var btnGoBackEl = document.querySelector("#go-back")
-      var btnClearScoresEl = document.querySelector("#clear-high-scores")
-    
-      var questionEl = document.getElementById("question")
-      var answerbuttonsEl = document.getElementById("answer-buttons")
+      var btnGoBackEl = document.querySelector("#go-back");
+      var btnClearScoresEl = document.querySelector("#clear-high-scores");
+      var answerbuttonsEl = document.getElementById("answer-buttons");
+      var containerQuestionEl = document.getElementById("question-container");
+      var containerStartEl = document.getElementById("starter-container");
+      var questionEl = document.getElementById("question");
+      var containerEndEl = document.getElementById("end-container");
+      var containerScoreEl = document.getElementById("score-banner");
+      var formInitials = document.getElementById("initials-form");
       var timerEl = document.querySelector("#timer");
-      var score = 0;
       var timeleft;
-      var gameover
+      var gameover;
+      var score = 0;
       timerEl.innerText = 0;
-
+      var containerHighScoresEl = document.getElementById("high-score-container");
+      var ViewHighScoreEl = document.getElementById("view-high-scores");
+      var listHighScoreEl = document.getElementById("high-score-list");
       var HighScores = [];
- 
+      var correctEl = document.getElementById("correct");
+      var wrongEl = document.getElementById("wrong");
       var arrayShuffledQuestions
       var QuestionIndex = 0
 
