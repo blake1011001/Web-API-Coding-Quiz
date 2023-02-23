@@ -40,7 +40,7 @@ var questions = [
         correctAnswer: "quotes"
     },
     {
-        question: "Arrays in JavaScript can be used to store which?"
+        question: "Arrays in JavaScript can be used to store which?",
         options: {
             A: "numbers and strings",
             B: "other arrays",
